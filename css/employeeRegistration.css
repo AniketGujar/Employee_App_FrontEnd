@@ -1,0 +1,77 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: content-box;
+}
+
+body{
+    background-image: url(../asserts/images/blog-image-workplace-orientation-01.png);
+    background-repeat: no-repeat;
+    background-position: left;
+    background-size: cover;
+    background-size: 1150px 680px;
+    font-family: serif;
+    margin-top: 40px;
+    color:white;
+}
+.employeeform{
+    text-align: left;
+    padding-top: 20px;
+    padding-left: 105px;
+}
+
+.btrn{
+    padding-top: 15px;
+}
+
+.cin{
+    float: right;
+    border:1px solid rgb(253, 251, 251);
+    border-radius: 5px;
+    padding-left: 50px;
+    padding-top: 25px;
+    margin-top: -25px;
+    padding-bottom: 25px;
+    width: 30%;
+    background-color:  #abb7bb!important;
+    /* opacity: 0.9; */
+}
+
+/* .cin{
+    margin: 0 auto;
+    width:35% /* value of your choice which suits your alignment */
+/* } */ 
+#viewData{
+    margin-left: 25px;
+}
+
+#3{
+  display: none;
+  margin-left: 20px;
+  margin-right: 55px; 
+}
+
+.fname{
+    margin-right: 75px;
+}
+
+#exampleData {
+    margin-top: 25px;
+}
+/* form.form-example {
+    display: table;
+}
+
+div.form-example {
+    display: table-row;
+}
+
+label, input {
+    display: table-cell;
+    margin-bottom: 10px;
+}
+
+label {
+    padding-right: 10px;
+} */
+
