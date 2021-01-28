@@ -15,15 +15,14 @@
     <title>Employee Registartion</title>
     <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
     <script src="../jsfile/employeeRegistration.js"></script>
-
+    <script src="../jsfile/employeeData.js"></script>
 </head>
 
 <body>
-    
     <div class="employeeform">
         <h1><i class="fas fa-users"></i> Employee Registartion Form</h1>
     </div>
-    
+
     <div class="cin">
         <div class="row">
             <div class="panel panel-primary">
@@ -58,7 +57,7 @@
 
                         <label for="exampleDataList" class="form-label">Department</label>
                         <input class="form-control" list="datalistOptions" id="exampleDataList"
-                            placeholder="Type to search..." required>
+                            placeholder="Enter Department..." required>
                         <datalist id="datalistOptions">
                             <option value="Front End">
                             <option value="Back End">
@@ -69,8 +68,11 @@
                     </div>
 
                     <div class="btrn">
-                        <button type="submit" class="btn btn-primary" onsubmit="addEmployee()"><i class="fas fa-id-badge"></i> Submit</button>
-                        <button type="button" id="viewData" class="btn btn-primary" onclick="location.href = 'http://127.0.0.1:5500/html/employeeData.html#'" ><i class="far fa-address-book"></i> View Data</button>
+                        <button type="submit" class="btn btn-primary" onsubmit="addEmployee()"><i
+                                class="fas fa-id-badge" id="subButton"></i> Submit</button>
+                        <button type="button" id="viewData" class="btn btn-primary"
+                            onclick="location.href = 'http://127.0.0.1:5500/html/employeeData.html#'"><i
+                                class="far fa-address-book"></i> View Data</button>
                     </div>
 
                     <p id="exampleData"></p>
@@ -78,7 +80,8 @@
                 </form>
             </div>
         </div>
-
 </body>
+
+<body onload="onLoad()"></body>
 
 </html>
